@@ -7,6 +7,8 @@
 
 ## Repro
 
+0. `yarn install` (may need to `corepack enable`)
+
 1. Run `yarn exec jiti stackTraceCJS.cts`.
 
     - This reports the TS file's path as `C:/path/to/repo/stackTraceCJS.cts`. 
